@@ -6,7 +6,7 @@ namespace SnakeWars.SampleBot
 {
     internal class GameBoardState
     {
-        private readonly GameStateDTO _gameState;
+        public readonly GameStateDTO _gameState;
 
         public GameBoardState(GameStateDTO gameState)
         {
